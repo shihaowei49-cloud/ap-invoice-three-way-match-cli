@@ -1,0 +1,16 @@
+{
+  "name": "ap-invoice-three-way-match-cli",
+  "version": "1.0.0",
+  "description": "Cent-exact three-way matching for purchase orders, goods receipts, and vendor invoices.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shihaowei49-cloud/ap-invoice-three-way-match-cli.git"
+  },
+  "homepage": "https://shihaowei49-cloud.github.io/ap-invoice-three-way-match-cli/"
+}
